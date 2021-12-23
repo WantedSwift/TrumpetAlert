@@ -7,15 +7,81 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		499C530D08918BBBC1D240DD /* Pods_TrumpetAlert.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8581EC593C7DDD481D52EE38 /* Pods_TrumpetAlert.framework */; };
+		ED9336162763648500E2226E /* HelperModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED9336152763648500E2226E /* HelperModel.swift */; };
 		EDA52B022762082400E23AB9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDA52B012762082400E23AB9 /* AppDelegate.swift */; };
 		EDA52B042762082400E23AB9 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDA52B032762082400E23AB9 /* SceneDelegate.swift */; };
 		EDA52B062762082400E23AB9 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDA52B052762082400E23AB9 /* ViewController.swift */; };
 		EDA52B092762082500E23AB9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EDA52B072762082500E23AB9 /* Main.storyboard */; };
 		EDA52B0B2762082900E23AB9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EDA52B0A2762082900E23AB9 /* Assets.xcassets */; };
 		EDA52B0E2762082900E23AB9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EDA52B0C2762082900E23AB9 /* LaunchScreen.storyboard */; };
+		EDA52B4E276208D600E23AB9 /* DRINKWATER.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = EDA52B16276208D100E23AB9 /* DRINKWATER.mp3 */; };
+		EDA52B4F276208D600E23AB9 /* OPENEYE.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = EDA52B17276208D100E23AB9 /* OPENEYE.mp3 */; };
+		EDA52B50276208D600E23AB9 /* MESSAGE.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = EDA52B18276208D100E23AB9 /* MESSAGE.mp3 */; };
+		EDA52B51276208D600E23AB9 /* ACCESSGRANTED.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = EDA52B19276208D200E23AB9 /* ACCESSGRANTED.mp3 */; };
+		EDA52B52276208D600E23AB9 /* ALERTALERT.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = EDA52B1A276208D200E23AB9 /* ALERTALERT.mp3 */; };
+		EDA52B53276208D600E23AB9 /* BULLET.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = EDA52B1B276208D200E23AB9 /* BULLET.mp3 */; };
+		EDA52B54276208D600E23AB9 /* RING.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = EDA52B1C276208D200E23AB9 /* RING.mp3 */; };
+		EDA52B55276208D600E23AB9 /* WAVY.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = EDA52B1D276208D200E23AB9 /* WAVY.mp3 */; };
+		EDA52B56276208D600E23AB9 /* JAPANESE.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = EDA52B1E276208D200E23AB9 /* JAPANESE.mp3 */; };
+		EDA52B57276208D600E23AB9 /* HELLO.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = EDA52B1F276208D200E23AB9 /* HELLO.mp3 */; };
+		EDA52B58276208D600E23AB9 /* BOUGHT.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = EDA52B20276208D200E23AB9 /* BOUGHT.mp3 */; };
+		EDA52B59276208D600E23AB9 /* HELLOHUMAN.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = EDA52B21276208D200E23AB9 /* HELLOHUMAN.mp3 */; };
+		EDA52B5A276208D600E23AB9 /* TEENEG.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = EDA52B22276208D200E23AB9 /* TEENEG.mp3 */; };
+		EDA52B5B276208D600E23AB9 /* DOUBLERING.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = EDA52B23276208D200E23AB9 /* DOUBLERING.mp3 */; };
+		EDA52B5C276208D600E23AB9 /* RING3.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = EDA52B24276208D200E23AB9 /* RING3.mp3 */; };
+		EDA52B5D276208D600E23AB9 /* HAPPYBD.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = EDA52B25276208D200E23AB9 /* HAPPYBD.mp3 */; };
+		EDA52B5E276208D600E23AB9 /* CUTE.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = EDA52B26276208D300E23AB9 /* CUTE.mp3 */; };
+		EDA52B5F276208D600E23AB9 /* SHOCKMOVE.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = EDA52B27276208D300E23AB9 /* SHOCKMOVE.mp3 */; };
+		EDA52B60276208D600E23AB9 /* CASH.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = EDA52B28276208D300E23AB9 /* CASH.mp3 */; };
+		EDA52B61276208D600E23AB9 /* GUITAR.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = EDA52B29276208D300E23AB9 /* GUITAR.mp3 */; };
+		EDA52B62276208D600E23AB9 /* GUNSHOOT.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = EDA52B2A276208D300E23AB9 /* GUNSHOOT.mp3 */; };
+		EDA52B63276208D600E23AB9 /* ALERT.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = EDA52B2B276208D300E23AB9 /* ALERT.mp3 */; };
+		EDA52B64276208D600E23AB9 /* CHRISTMAS.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = EDA52B2C276208D300E23AB9 /* CHRISTMAS.mp3 */; };
+		EDA52B65276208D600E23AB9 /* CONSEQUENCE.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = EDA52B2D276208D300E23AB9 /* CONSEQUENCE.mp3 */; };
+		EDA52B66276208D600E23AB9 /* GOODMORNING.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = EDA52B2E276208D300E23AB9 /* GOODMORNING.mp3 */; };
+		EDA52B67276208D600E23AB9 /* MEXICANYELL.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = EDA52B2F276208D300E23AB9 /* MEXICANYELL.mp3 */; };
+		EDA52B68276208D600E23AB9 /* NEWSFLASH.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = EDA52B30276208D300E23AB9 /* NEWSFLASH.mp3 */; };
+		EDA52B69276208D600E23AB9 /* RECEIVED.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = EDA52B31276208D300E23AB9 /* RECEIVED.mp3 */; };
+		EDA52B6A276208D600E23AB9 /* JINGELBELLS.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = EDA52B32276208D300E23AB9 /* JINGELBELLS.mp3 */; };
+		EDA52B6B276208D600E23AB9 /* DING.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = EDA52B33276208D400E23AB9 /* DING.mp3 */; };
+		EDA52B6C276208D600E23AB9 /* HIGHALERT.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = EDA52B34276208D400E23AB9 /* HIGHALERT.mp3 */; };
+		EDA52B6D276208D600E23AB9 /* DING2.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = EDA52B35276208D400E23AB9 /* DING2.mp3 */; };
+		EDA52B6E276208D600E23AB9 /* CAR.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = EDA52B36276208D400E23AB9 /* CAR.mp3 */; };
+		EDA52B6F276208D600E23AB9 /* NOTIFY.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = EDA52B37276208D400E23AB9 /* NOTIFY.mp3 */; };
+		EDA52B70276208D600E23AB9 /* SOLD.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = EDA52B38276208D400E23AB9 /* SOLD.mp3 */; };
+		EDA52B71276208D600E23AB9 /* SHORT.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = EDA52B39276208D400E23AB9 /* SHORT.mp3 */; };
+		EDA52B72276208D600E23AB9 /* MEETING30M.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = EDA52B3A276208D400E23AB9 /* MEETING30M.mp3 */; };
+		EDA52B73276208D600E23AB9 /* FORGETCALL.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = EDA52B3B276208D400E23AB9 /* FORGETCALL.mp3 */; };
+		EDA52B74276208D600E23AB9 /* WAKEUP.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = EDA52B3C276208D400E23AB9 /* WAKEUP.mp3 */; };
+		EDA52B75276208D600E23AB9 /* MEETING1H.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = EDA52B3D276208D400E23AB9 /* MEETING1H.mp3 */; };
+		EDA52B76276208D600E23AB9 /* PRICEINCREASE.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = EDA52B3E276208D400E23AB9 /* PRICEINCREASE.mp3 */; };
+		EDA52B77276208D600E23AB9 /* CHILL.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = EDA52B3F276208D400E23AB9 /* CHILL.mp3 */; };
+		EDA52B78276208D600E23AB9 /* GOODMORNING2.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = EDA52B40276208D500E23AB9 /* GOODMORNING2.mp3 */; };
+		EDA52B79276208D600E23AB9 /* MEXICAN.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = EDA52B41276208D500E23AB9 /* MEXICAN.mp3 */; };
+		EDA52B7A276208D600E23AB9 /* STOCKBELL.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = EDA52B42276208D500E23AB9 /* STOCKBELL.mp3 */; };
+		EDA52B7B276208D600E23AB9 /* PILLS.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = EDA52B43276208D500E23AB9 /* PILLS.mp3 */; };
+		EDA52B7C276208D600E23AB9 /* STORM.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = EDA52B44276208D500E23AB9 /* STORM.mp3 */; };
+		EDA52B7D276208D600E23AB9 /* HIPRICEGAP.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = EDA52B45276208D500E23AB9 /* HIPRICEGAP.mp3 */; };
+		EDA52B7E276208D600E23AB9 /* HAPPYBALE.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = EDA52B46276208D500E23AB9 /* HAPPYBALE.mp3 */; };
+		EDA52B7F276208D600E23AB9 /* COMPLETED.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = EDA52B47276208D500E23AB9 /* COMPLETED.mp3 */; };
+		EDA52B80276208D600E23AB9 /* JUMP.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = EDA52B48276208D500E23AB9 /* JUMP.mp3 */; };
+		EDA52B81276208D600E23AB9 /* SPREADALERT.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = EDA52B49276208D500E23AB9 /* SPREADALERT.mp3 */; };
+		EDA52B82276208D600E23AB9 /* HELLOVOICE.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = EDA52B4A276208D500E23AB9 /* HELLOVOICE.mp3 */; };
+		EDA52B83276208D600E23AB9 /* NEWSCHANNEL.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = EDA52B4B276208D600E23AB9 /* NEWSCHANNEL.mp3 */; };
+		EDA52B84276208D600E23AB9 /* HAPPYMELODY.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = EDA52B4C276208D600E23AB9 /* HAPPYMELODY.mp3 */; };
+		EDA52B85276208D600E23AB9 /* RING2.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = EDA52B4D276208D600E23AB9 /* RING2.mp3 */; };
+		EDA52B8827620C7600E23AB9 /* SettingCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDA52B8727620C7600E23AB9 /* SettingCell.swift */; };
+		EDA52B8A27620C9000E23AB9 /* SettingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDA52B8927620C9000E23AB9 /* SettingView.swift */; };
+		EDA52B8C27624E8200E23AB9 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = EDA52B8B27624E8200E23AB9 /* GoogleService-Info.plist */; };
+		EDA52B8F27626C2400E23AB9 /* HomeCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDA52B8E27626C2400E23AB9 /* HomeCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		1346DB3D4CE4BB32158EA6BE /* Pods-TrumpetAlert.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TrumpetAlert.debug.xcconfig"; path = "Target Support Files/Pods-TrumpetAlert/Pods-TrumpetAlert.debug.xcconfig"; sourceTree = "<group>"; };
+		8581EC593C7DDD481D52EE38 /* Pods_TrumpetAlert.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TrumpetAlert.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D04EAFF89236BE9BBEE72F75 /* Pods-TrumpetAlert.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TrumpetAlert.release.xcconfig"; path = "Target Support Files/Pods-TrumpetAlert/Pods-TrumpetAlert.release.xcconfig"; sourceTree = "<group>"; };
+		ED9336152763648500E2226E /* HelperModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HelperModel.swift; sourceTree = "<group>"; };
 		EDA52AFE2762082400E23AB9 /* TrumpetAlert.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TrumpetAlert.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		EDA52B012762082400E23AB9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		EDA52B032762082400E23AB9 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -24,6 +90,67 @@
 		EDA52B0A2762082900E23AB9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		EDA52B0D2762082900E23AB9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		EDA52B0F2762082900E23AB9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EDA52B16276208D100E23AB9 /* DRINKWATER.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = DRINKWATER.mp3; sourceTree = "<group>"; };
+		EDA52B17276208D100E23AB9 /* OPENEYE.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = OPENEYE.mp3; sourceTree = "<group>"; };
+		EDA52B18276208D100E23AB9 /* MESSAGE.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = MESSAGE.mp3; sourceTree = "<group>"; };
+		EDA52B19276208D200E23AB9 /* ACCESSGRANTED.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = ACCESSGRANTED.mp3; sourceTree = "<group>"; };
+		EDA52B1A276208D200E23AB9 /* ALERTALERT.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = ALERTALERT.mp3; sourceTree = "<group>"; };
+		EDA52B1B276208D200E23AB9 /* BULLET.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = BULLET.mp3; sourceTree = "<group>"; };
+		EDA52B1C276208D200E23AB9 /* RING.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = RING.mp3; sourceTree = "<group>"; };
+		EDA52B1D276208D200E23AB9 /* WAVY.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = WAVY.mp3; sourceTree = "<group>"; };
+		EDA52B1E276208D200E23AB9 /* JAPANESE.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = JAPANESE.mp3; sourceTree = "<group>"; };
+		EDA52B1F276208D200E23AB9 /* HELLO.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = HELLO.mp3; sourceTree = "<group>"; };
+		EDA52B20276208D200E23AB9 /* BOUGHT.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = BOUGHT.mp3; sourceTree = "<group>"; };
+		EDA52B21276208D200E23AB9 /* HELLOHUMAN.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = HELLOHUMAN.mp3; sourceTree = "<group>"; };
+		EDA52B22276208D200E23AB9 /* TEENEG.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = TEENEG.mp3; sourceTree = "<group>"; };
+		EDA52B23276208D200E23AB9 /* DOUBLERING.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = DOUBLERING.mp3; sourceTree = "<group>"; };
+		EDA52B24276208D200E23AB9 /* RING3.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = RING3.mp3; sourceTree = "<group>"; };
+		EDA52B25276208D200E23AB9 /* HAPPYBD.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = HAPPYBD.mp3; sourceTree = "<group>"; };
+		EDA52B26276208D300E23AB9 /* CUTE.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = CUTE.mp3; sourceTree = "<group>"; };
+		EDA52B27276208D300E23AB9 /* SHOCKMOVE.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = SHOCKMOVE.mp3; sourceTree = "<group>"; };
+		EDA52B28276208D300E23AB9 /* CASH.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = CASH.mp3; sourceTree = "<group>"; };
+		EDA52B29276208D300E23AB9 /* GUITAR.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = GUITAR.mp3; sourceTree = "<group>"; };
+		EDA52B2A276208D300E23AB9 /* GUNSHOOT.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = GUNSHOOT.mp3; sourceTree = "<group>"; };
+		EDA52B2B276208D300E23AB9 /* ALERT.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = ALERT.mp3; sourceTree = "<group>"; };
+		EDA52B2C276208D300E23AB9 /* CHRISTMAS.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = CHRISTMAS.mp3; sourceTree = "<group>"; };
+		EDA52B2D276208D300E23AB9 /* CONSEQUENCE.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = CONSEQUENCE.mp3; sourceTree = "<group>"; };
+		EDA52B2E276208D300E23AB9 /* GOODMORNING.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = GOODMORNING.mp3; sourceTree = "<group>"; };
+		EDA52B2F276208D300E23AB9 /* MEXICANYELL.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = MEXICANYELL.mp3; sourceTree = "<group>"; };
+		EDA52B30276208D300E23AB9 /* NEWSFLASH.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = NEWSFLASH.mp3; sourceTree = "<group>"; };
+		EDA52B31276208D300E23AB9 /* RECEIVED.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = RECEIVED.mp3; sourceTree = "<group>"; };
+		EDA52B32276208D300E23AB9 /* JINGELBELLS.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = JINGELBELLS.mp3; sourceTree = "<group>"; };
+		EDA52B33276208D400E23AB9 /* DING.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = DING.mp3; sourceTree = "<group>"; };
+		EDA52B34276208D400E23AB9 /* HIGHALERT.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = HIGHALERT.mp3; sourceTree = "<group>"; };
+		EDA52B35276208D400E23AB9 /* DING2.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = DING2.mp3; sourceTree = "<group>"; };
+		EDA52B36276208D400E23AB9 /* CAR.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = CAR.mp3; sourceTree = "<group>"; };
+		EDA52B37276208D400E23AB9 /* NOTIFY.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = NOTIFY.mp3; sourceTree = "<group>"; };
+		EDA52B38276208D400E23AB9 /* SOLD.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = SOLD.mp3; sourceTree = "<group>"; };
+		EDA52B39276208D400E23AB9 /* SHORT.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = SHORT.mp3; sourceTree = "<group>"; };
+		EDA52B3A276208D400E23AB9 /* MEETING30M.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = MEETING30M.mp3; sourceTree = "<group>"; };
+		EDA52B3B276208D400E23AB9 /* FORGETCALL.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = FORGETCALL.mp3; sourceTree = "<group>"; };
+		EDA52B3C276208D400E23AB9 /* WAKEUP.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = WAKEUP.mp3; sourceTree = "<group>"; };
+		EDA52B3D276208D400E23AB9 /* MEETING1H.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = MEETING1H.mp3; sourceTree = "<group>"; };
+		EDA52B3E276208D400E23AB9 /* PRICEINCREASE.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = PRICEINCREASE.mp3; sourceTree = "<group>"; };
+		EDA52B3F276208D400E23AB9 /* CHILL.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = CHILL.mp3; sourceTree = "<group>"; };
+		EDA52B40276208D500E23AB9 /* GOODMORNING2.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = GOODMORNING2.mp3; sourceTree = "<group>"; };
+		EDA52B41276208D500E23AB9 /* MEXICAN.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = MEXICAN.mp3; sourceTree = "<group>"; };
+		EDA52B42276208D500E23AB9 /* STOCKBELL.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = STOCKBELL.mp3; sourceTree = "<group>"; };
+		EDA52B43276208D500E23AB9 /* PILLS.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = PILLS.mp3; sourceTree = "<group>"; };
+		EDA52B44276208D500E23AB9 /* STORM.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = STORM.mp3; sourceTree = "<group>"; };
+		EDA52B45276208D500E23AB9 /* HIPRICEGAP.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = HIPRICEGAP.mp3; sourceTree = "<group>"; };
+		EDA52B46276208D500E23AB9 /* HAPPYBALE.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = HAPPYBALE.mp3; sourceTree = "<group>"; };
+		EDA52B47276208D500E23AB9 /* COMPLETED.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = COMPLETED.mp3; sourceTree = "<group>"; };
+		EDA52B48276208D500E23AB9 /* JUMP.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = JUMP.mp3; sourceTree = "<group>"; };
+		EDA52B49276208D500E23AB9 /* SPREADALERT.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = SPREADALERT.mp3; sourceTree = "<group>"; };
+		EDA52B4A276208D500E23AB9 /* HELLOVOICE.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = HELLOVOICE.mp3; sourceTree = "<group>"; };
+		EDA52B4B276208D600E23AB9 /* NEWSCHANNEL.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = NEWSCHANNEL.mp3; sourceTree = "<group>"; };
+		EDA52B4C276208D600E23AB9 /* HAPPYMELODY.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = HAPPYMELODY.mp3; sourceTree = "<group>"; };
+		EDA52B4D276208D600E23AB9 /* RING2.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = RING2.mp3; sourceTree = "<group>"; };
+		EDA52B8727620C7600E23AB9 /* SettingCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingCell.swift; sourceTree = "<group>"; };
+		EDA52B8927620C9000E23AB9 /* SettingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingView.swift; sourceTree = "<group>"; };
+		EDA52B8B27624E8200E23AB9 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		EDA52B8D27625C4F00E23AB9 /* TrumpetAlert.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = TrumpetAlert.entitlements; sourceTree = "<group>"; };
+		EDA52B8E27626C2400E23AB9 /* HomeCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,17 +158,45 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				499C530D08918BBBC1D240DD /* Pods_TrumpetAlert.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		81FBCA51E104EEA904A74F37 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				8581EC593C7DDD481D52EE38 /* Pods_TrumpetAlert.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		E73C7B58EA7E4ABF797E91C9 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				1346DB3D4CE4BB32158EA6BE /* Pods-TrumpetAlert.debug.xcconfig */,
+				D04EAFF89236BE9BBEE72F75 /* Pods-TrumpetAlert.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		ED9336142763647600E2226E /* models */ = {
+			isa = PBXGroup;
+			children = (
+				ED9336152763648500E2226E /* HelperModel.swift */,
+			);
+			path = models;
+			sourceTree = "<group>";
+		};
 		EDA52AF52762082400E23AB9 = {
 			isa = PBXGroup;
 			children = (
 				EDA52B002762082400E23AB9 /* TrumpetAlert */,
 				EDA52AFF2762082400E23AB9 /* Products */,
+				E73C7B58EA7E4ABF797E91C9 /* Pods */,
+				81FBCA51E104EEA904A74F37 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -56,15 +211,93 @@
 		EDA52B002762082400E23AB9 /* TrumpetAlert */ = {
 			isa = PBXGroup;
 			children = (
+				ED9336142763647600E2226E /* models */,
+				EDA52B8D27625C4F00E23AB9 /* TrumpetAlert.entitlements */,
+				EDA52B8627620C6000E23AB9 /* settings */,
+				EDA52B15276208C100E23AB9 /* sounds */,
 				EDA52B012762082400E23AB9 /* AppDelegate.swift */,
+				EDA52B8E27626C2400E23AB9 /* HomeCell.swift */,
 				EDA52B032762082400E23AB9 /* SceneDelegate.swift */,
 				EDA52B052762082400E23AB9 /* ViewController.swift */,
+				EDA52B8B27624E8200E23AB9 /* GoogleService-Info.plist */,
 				EDA52B072762082500E23AB9 /* Main.storyboard */,
 				EDA52B0A2762082900E23AB9 /* Assets.xcassets */,
 				EDA52B0C2762082900E23AB9 /* LaunchScreen.storyboard */,
 				EDA52B0F2762082900E23AB9 /* Info.plist */,
 			);
 			path = TrumpetAlert;
+			sourceTree = "<group>";
+		};
+		EDA52B15276208C100E23AB9 /* sounds */ = {
+			isa = PBXGroup;
+			children = (
+				EDA52B19276208D200E23AB9 /* ACCESSGRANTED.mp3 */,
+				EDA52B2B276208D300E23AB9 /* ALERT.mp3 */,
+				EDA52B1A276208D200E23AB9 /* ALERTALERT.mp3 */,
+				EDA52B20276208D200E23AB9 /* BOUGHT.mp3 */,
+				EDA52B1B276208D200E23AB9 /* BULLET.mp3 */,
+				EDA52B36276208D400E23AB9 /* CAR.mp3 */,
+				EDA52B28276208D300E23AB9 /* CASH.mp3 */,
+				EDA52B3F276208D400E23AB9 /* CHILL.mp3 */,
+				EDA52B2C276208D300E23AB9 /* CHRISTMAS.mp3 */,
+				EDA52B47276208D500E23AB9 /* COMPLETED.mp3 */,
+				EDA52B2D276208D300E23AB9 /* CONSEQUENCE.mp3 */,
+				EDA52B26276208D300E23AB9 /* CUTE.mp3 */,
+				EDA52B33276208D400E23AB9 /* DING.mp3 */,
+				EDA52B35276208D400E23AB9 /* DING2.mp3 */,
+				EDA52B23276208D200E23AB9 /* DOUBLERING.mp3 */,
+				EDA52B16276208D100E23AB9 /* DRINKWATER.mp3 */,
+				EDA52B3B276208D400E23AB9 /* FORGETCALL.mp3 */,
+				EDA52B2E276208D300E23AB9 /* GOODMORNING.mp3 */,
+				EDA52B40276208D500E23AB9 /* GOODMORNING2.mp3 */,
+				EDA52B29276208D300E23AB9 /* GUITAR.mp3 */,
+				EDA52B2A276208D300E23AB9 /* GUNSHOOT.mp3 */,
+				EDA52B46276208D500E23AB9 /* HAPPYBALE.mp3 */,
+				EDA52B25276208D200E23AB9 /* HAPPYBD.mp3 */,
+				EDA52B4C276208D600E23AB9 /* HAPPYMELODY.mp3 */,
+				EDA52B1F276208D200E23AB9 /* HELLO.mp3 */,
+				EDA52B21276208D200E23AB9 /* HELLOHUMAN.mp3 */,
+				EDA52B4A276208D500E23AB9 /* HELLOVOICE.mp3 */,
+				EDA52B34276208D400E23AB9 /* HIGHALERT.mp3 */,
+				EDA52B45276208D500E23AB9 /* HIPRICEGAP.mp3 */,
+				EDA52B1E276208D200E23AB9 /* JAPANESE.mp3 */,
+				EDA52B32276208D300E23AB9 /* JINGELBELLS.mp3 */,
+				EDA52B48276208D500E23AB9 /* JUMP.mp3 */,
+				EDA52B3D276208D400E23AB9 /* MEETING1H.mp3 */,
+				EDA52B3A276208D400E23AB9 /* MEETING30M.mp3 */,
+				EDA52B18276208D100E23AB9 /* MESSAGE.mp3 */,
+				EDA52B41276208D500E23AB9 /* MEXICAN.mp3 */,
+				EDA52B2F276208D300E23AB9 /* MEXICANYELL.mp3 */,
+				EDA52B4B276208D600E23AB9 /* NEWSCHANNEL.mp3 */,
+				EDA52B30276208D300E23AB9 /* NEWSFLASH.mp3 */,
+				EDA52B37276208D400E23AB9 /* NOTIFY.mp3 */,
+				EDA52B17276208D100E23AB9 /* OPENEYE.mp3 */,
+				EDA52B43276208D500E23AB9 /* PILLS.mp3 */,
+				EDA52B3E276208D400E23AB9 /* PRICEINCREASE.mp3 */,
+				EDA52B31276208D300E23AB9 /* RECEIVED.mp3 */,
+				EDA52B1C276208D200E23AB9 /* RING.mp3 */,
+				EDA52B4D276208D600E23AB9 /* RING2.mp3 */,
+				EDA52B24276208D200E23AB9 /* RING3.mp3 */,
+				EDA52B27276208D300E23AB9 /* SHOCKMOVE.mp3 */,
+				EDA52B39276208D400E23AB9 /* SHORT.mp3 */,
+				EDA52B38276208D400E23AB9 /* SOLD.mp3 */,
+				EDA52B49276208D500E23AB9 /* SPREADALERT.mp3 */,
+				EDA52B42276208D500E23AB9 /* STOCKBELL.mp3 */,
+				EDA52B44276208D500E23AB9 /* STORM.mp3 */,
+				EDA52B22276208D200E23AB9 /* TEENEG.mp3 */,
+				EDA52B3C276208D400E23AB9 /* WAKEUP.mp3 */,
+				EDA52B1D276208D200E23AB9 /* WAVY.mp3 */,
+			);
+			path = sounds;
+			sourceTree = "<group>";
+		};
+		EDA52B8627620C6000E23AB9 /* settings */ = {
+			isa = PBXGroup;
+			children = (
+				EDA52B8727620C7600E23AB9 /* SettingCell.swift */,
+				EDA52B8927620C9000E23AB9 /* SettingView.swift */,
+			);
+			path = settings;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -74,9 +307,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = EDA52B122762082900E23AB9 /* Build configuration list for PBXNativeTarget "TrumpetAlert" */;
 			buildPhases = (
+				B6D27BCAE06A264BFCF394FA /* [CP] Check Pods Manifest.lock */,
 				EDA52AFA2762082400E23AB9 /* Sources */,
 				EDA52AFB2762082400E23AB9 /* Frameworks */,
 				EDA52AFC2762082400E23AB9 /* Resources */,
+				5EFA4D7BDE962C98D6FEDDB0 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -125,13 +360,112 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EDA52B5A276208D600E23AB9 /* TEENEG.mp3 in Resources */,
 				EDA52B0E2762082900E23AB9 /* LaunchScreen.storyboard in Resources */,
+				EDA52B83276208D600E23AB9 /* NEWSCHANNEL.mp3 in Resources */,
 				EDA52B0B2762082900E23AB9 /* Assets.xcassets in Resources */,
+				EDA52B60276208D600E23AB9 /* CASH.mp3 in Resources */,
+				EDA52B54276208D600E23AB9 /* RING.mp3 in Resources */,
+				EDA52B74276208D600E23AB9 /* WAKEUP.mp3 in Resources */,
+				EDA52B5D276208D600E23AB9 /* HAPPYBD.mp3 in Resources */,
+				EDA52B61276208D600E23AB9 /* GUITAR.mp3 in Resources */,
+				EDA52B63276208D600E23AB9 /* ALERT.mp3 in Resources */,
+				EDA52B55276208D600E23AB9 /* WAVY.mp3 in Resources */,
+				EDA52B84276208D600E23AB9 /* HAPPYMELODY.mp3 in Resources */,
+				EDA52B85276208D600E23AB9 /* RING2.mp3 in Resources */,
+				EDA52B51276208D600E23AB9 /* ACCESSGRANTED.mp3 in Resources */,
+				EDA52B6D276208D600E23AB9 /* DING2.mp3 in Resources */,
+				EDA52B62276208D600E23AB9 /* GUNSHOOT.mp3 in Resources */,
+				EDA52B7E276208D600E23AB9 /* HAPPYBALE.mp3 in Resources */,
+				EDA52B7B276208D600E23AB9 /* PILLS.mp3 in Resources */,
+				EDA52B5E276208D600E23AB9 /* CUTE.mp3 in Resources */,
+				EDA52B7A276208D600E23AB9 /* STOCKBELL.mp3 in Resources */,
+				EDA52B6B276208D600E23AB9 /* DING.mp3 in Resources */,
+				EDA52B80276208D600E23AB9 /* JUMP.mp3 in Resources */,
+				EDA52B65276208D600E23AB9 /* CONSEQUENCE.mp3 in Resources */,
+				EDA52B6E276208D600E23AB9 /* CAR.mp3 in Resources */,
+				EDA52B5C276208D600E23AB9 /* RING3.mp3 in Resources */,
+				EDA52B59276208D600E23AB9 /* HELLOHUMAN.mp3 in Resources */,
+				EDA52B50276208D600E23AB9 /* MESSAGE.mp3 in Resources */,
+				EDA52B7D276208D600E23AB9 /* HIPRICEGAP.mp3 in Resources */,
+				EDA52B66276208D600E23AB9 /* GOODMORNING.mp3 in Resources */,
+				EDA52B67276208D600E23AB9 /* MEXICANYELL.mp3 in Resources */,
+				EDA52B72276208D600E23AB9 /* MEETING30M.mp3 in Resources */,
+				EDA52B5F276208D600E23AB9 /* SHOCKMOVE.mp3 in Resources */,
+				EDA52B8C27624E8200E23AB9 /* GoogleService-Info.plist in Resources */,
+				EDA52B52276208D600E23AB9 /* ALERTALERT.mp3 in Resources */,
+				EDA52B53276208D600E23AB9 /* BULLET.mp3 in Resources */,
+				EDA52B7F276208D600E23AB9 /* COMPLETED.mp3 in Resources */,
+				EDA52B7C276208D600E23AB9 /* STORM.mp3 in Resources */,
+				EDA52B71276208D600E23AB9 /* SHORT.mp3 in Resources */,
+				EDA52B4F276208D600E23AB9 /* OPENEYE.mp3 in Resources */,
+				EDA52B68276208D600E23AB9 /* NEWSFLASH.mp3 in Resources */,
+				EDA52B56276208D600E23AB9 /* JAPANESE.mp3 in Resources */,
+				EDA52B75276208D600E23AB9 /* MEETING1H.mp3 in Resources */,
+				EDA52B6A276208D600E23AB9 /* JINGELBELLS.mp3 in Resources */,
+				EDA52B6F276208D600E23AB9 /* NOTIFY.mp3 in Resources */,
+				EDA52B73276208D600E23AB9 /* FORGETCALL.mp3 in Resources */,
+				EDA52B69276208D600E23AB9 /* RECEIVED.mp3 in Resources */,
 				EDA52B092762082500E23AB9 /* Main.storyboard in Resources */,
+				EDA52B76276208D600E23AB9 /* PRICEINCREASE.mp3 in Resources */,
+				EDA52B78276208D600E23AB9 /* GOODMORNING2.mp3 in Resources */,
+				EDA52B79276208D600E23AB9 /* MEXICAN.mp3 in Resources */,
+				EDA52B64276208D600E23AB9 /* CHRISTMAS.mp3 in Resources */,
+				EDA52B4E276208D600E23AB9 /* DRINKWATER.mp3 in Resources */,
+				EDA52B57276208D600E23AB9 /* HELLO.mp3 in Resources */,
+				EDA52B70276208D600E23AB9 /* SOLD.mp3 in Resources */,
+				EDA52B77276208D600E23AB9 /* CHILL.mp3 in Resources */,
+				EDA52B81276208D600E23AB9 /* SPREADALERT.mp3 in Resources */,
+				EDA52B6C276208D600E23AB9 /* HIGHALERT.mp3 in Resources */,
+				EDA52B5B276208D600E23AB9 /* DOUBLERING.mp3 in Resources */,
+				EDA52B82276208D600E23AB9 /* HELLOVOICE.mp3 in Resources */,
+				EDA52B58276208D600E23AB9 /* BOUGHT.mp3 in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		5EFA4D7BDE962C98D6FEDDB0 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-TrumpetAlert/Pods-TrumpetAlert-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-TrumpetAlert/Pods-TrumpetAlert-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-TrumpetAlert/Pods-TrumpetAlert-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B6D27BCAE06A264BFCF394FA /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-TrumpetAlert-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		EDA52AFA2762082400E23AB9 /* Sources */ = {
@@ -139,7 +473,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				EDA52B062762082400E23AB9 /* ViewController.swift in Sources */,
+				EDA52B8A27620C9000E23AB9 /* SettingView.swift in Sources */,
 				EDA52B022762082400E23AB9 /* AppDelegate.swift in Sources */,
+				EDA52B8827620C7600E23AB9 /* SettingCell.swift in Sources */,
+				ED9336162763648500E2226E /* HelperModel.swift in Sources */,
+				EDA52B8F27626C2400E23AB9 /* HomeCell.swift in Sources */,
 				EDA52B042762082400E23AB9 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -217,7 +555,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -272,7 +610,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
@@ -284,17 +622,22 @@
 		};
 		EDA52B132762082900E23AB9 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1346DB3D4CE4BB32158EA6BE /* Pods-TrumpetAlert.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = TrumpetAlert/TrumpetAlert.entitlements;
+				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
+				CURRENT_PROJECT_VERSION = 2;
 				DEVELOPMENT_TEAM = MC99X3Z9M2;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = TrumpetAlert/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "Trumpet Alert";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -302,8 +645,9 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = org.wanted.turkmenFood.TrumpetAlert;
+				PRODUCT_BUNDLE_IDENTIFIER = org.wanted.TrumpetAlert;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -312,17 +656,22 @@
 		};
 		EDA52B142762082900E23AB9 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = D04EAFF89236BE9BBEE72F75 /* Pods-TrumpetAlert.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = TrumpetAlert/TrumpetAlert.entitlements;
+				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
+				CURRENT_PROJECT_VERSION = 2;
 				DEVELOPMENT_TEAM = MC99X3Z9M2;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = TrumpetAlert/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "Trumpet Alert";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -330,8 +679,9 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = org.wanted.turkmenFood.TrumpetAlert;
+				PRODUCT_BUNDLE_IDENTIFIER = org.wanted.TrumpetAlert;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
